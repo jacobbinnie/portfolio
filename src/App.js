@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import "./App.css";
+import Container from "./components/Container";
+import mail from "../src/mailicon.png";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <Container />
+      <div className="email">
+        <h6 className="builtby">say hello</h6>
+        <a href="mailto:hello@jacobbinnie.com">
+          <img className="icon" src={mail} alt="email"></img>
         </a>
-      </header>
+      </div>
     </div>
   );
 }

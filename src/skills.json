@@ -1,0 +1,6 @@
+{
+  "proficient": ["react.js", "next.js", "javascript", "html", "css"],
+  "understanding": ["typescript", "python", "solidity", "node.js"],
+  "management": ["agile sprints", "scrum master", "product"],
+  "bonus": ["coffee addict", "yeah, wine lover too"]
+}

@@ -1,0 +1,39 @@
+.skills {
+  padding: 20px 50px 20px 50px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Space Mono", monospace;
+  background-color: transparent;
+  border: 5px solid whitesmoke;
+  border-radius: 0px 0px 10px 10px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+.skillList {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.skillContainer {
+  display: flex;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 530px) {
+  .skillList {
+    flex-wrap: wrap;
+  }
+  .type {
+    display: none;
+  }
+  .skills {
+    border: none;
+  }
+}
