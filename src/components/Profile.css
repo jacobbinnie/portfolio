@@ -50,6 +50,7 @@ h1 {
   display: flex;
   gap: 5px;
   justify-content: left;
+  width: 100%;
 }
 
 .rightDiv {

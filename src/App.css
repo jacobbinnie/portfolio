@@ -58,4 +58,15 @@ button:hover {
     display: block;
     overflow: hidden;
   }
+  button:hover {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    letter-spacing: 0px;
+  }
 }
