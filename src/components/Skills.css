@@ -37,6 +37,7 @@ h6 {
   }
   .skills {
     border: none;
+    padding-top: 25px;
   }
   .skillContainer > h6 {
     margin: 0px;
