@@ -26,14 +26,20 @@ h6 {
   gap: 20px;
 }
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 600px) {
   .skillList {
-    flex-wrap: wrap;
+    display: block;
+    height: 60px;
   }
   .type {
-    display: none;
+    margin: 0px;
+    font-size: 15px;
   }
   .skills {
     border: none;
+  }
+  .skillContainer > h6 {
+    margin: 0px;
+    padding: 0px;
   }
 }
