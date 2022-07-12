@@ -5,6 +5,7 @@
   border-bottom: none;
   text-align: left;
   max-width: 100%;
+  max-height: 400px;
   border-radius: 10px 10px 0px 0px;
   transform-style: preserve-3d;
 }
@@ -19,7 +20,7 @@
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .name {
@@ -37,7 +38,7 @@ h1 {
   font-weight: 600;
   margin-bottom: 25px;
   max-width: 80%;
-  font-size: 15px;
+  font-size: 12px;
   color: rgba(0, 0, 0, 0.492);
 }
 
