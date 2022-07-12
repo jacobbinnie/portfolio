@@ -1,6 +1,5 @@
 import React from "react";
 import "./Profile.css";
-import PDF from "../Resume.pdf";
 import Photo from "../Headshot.jpg";
 
 export default function Profile() {
@@ -31,7 +30,11 @@ export default function Profile() {
               <button className="button">Github</button>
             </a>
 
-            <a href={PDF} target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.dropbox.com/s/qwxc62isi187wgq/Resume-Jacob%20Binnie-July5.pdf?dl=0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button className="button">Resume</button>
             </a>
           </div>
