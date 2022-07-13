@@ -4,9 +4,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   color: black;
   overflow: hidden;
+  margin-top: 75px;
+  padding-top: 50px;
 }
 
 button {
@@ -19,7 +21,8 @@ button {
   padding: 10px 20px 10px 20px;
   cursor: pointer;
   letter-spacing: 0px;
-  transition: color 1s, background-color 0.5s, padding 1s, letter-spacing 1s;
+  transition: color 1s, background-color 0.5s, padding 1s, letter-spacing 1s,
+    border-color ease 0.5s;
 }
 
 button:hover {
@@ -27,26 +30,21 @@ button:hover {
   color: white;
   background-color: black;
   letter-spacing: 2px;
-  transition: background-color 0.5s, padding 1s, letter-spacing 1s, color 1s;
-}
-
-.builtby {
-  color: white;
-  text-transform: uppercase;
-  font-size: 10px;
-}
-
-.email {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+  transition: background-color 0.5s, padding 1s, letter-spacing 1s, color 1s,
+    border-color ease 0.5s;
 }
 
 .icon {
   margin-top: 3px;
   transition: margin-top 0.5s;
   width: 16px;
+}
+
+.iconSymbol {
+  margin: 10px 5px 10px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon:hover {
@@ -58,7 +56,10 @@ button:hover {
   .App {
     display: block;
     overflow: hidden;
+    margin-top: 0px;
+    padding-top: 0px;
   }
+
   button:hover {
     background-color: black;
     border: 2px solid black;
@@ -69,12 +70,5 @@ button:hover {
     padding: 10px 20px 10px 20px;
     cursor: pointer;
     letter-spacing: 0px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .email {
-    justify-content: center;
-    margin-top: -60px;
   }
 }

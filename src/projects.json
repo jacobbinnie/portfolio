@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "number": "Project 1",
+      "title": "(WISUS) 'When I Say You Say' Game",
+      "description": "An original addictive online game I built in a similar game format to Wordle. Each day there's a new clue that appears on screen, it's the users job to guess the word in only five attempts. The game saves a user's track score locally and is responsive for all devices. With over a years worth of puzzles coded in and active players around the world, I'm fairly proud of this one. The app was built entirely using react.js & vanilla js.",
+      "image": "example",
+      "github": "https://github.com/jacobbinnie/whenisayyousay",
+      "url": "https://whenisayyousay.com",
+      "stack": ["react.js", "javascript", "html", "css"]
+    },
+    {
+      "number": "Project 2",
+      "title": "This Very Portfolio",
+      "description": "What better place to show off your development skills than the portfolio that everyone looks at? Built entirely using react.js & vanilla js, this portfolio was designed to achieve three core things. One, demonstrate clean frontend UI design. Two, demonstrate vanilla js interactiveness and provide a list of all proficient skills. Three, collate some of my favourite frontend projects I've worked on in one easy place. Feel free to check out the Github repo below.",
+      "image": "example",
+      "github": "https://github.com/jacobbinnie/portfolio",
+      "url": "",
+      "stack": ["react.js", "javascript", "html", "css"]
+    }
+  ]
+}
