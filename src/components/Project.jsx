@@ -18,7 +18,7 @@ const Project = ({ item }) => {
       <p className="description">{item.description}</p>
       <div className="buttonDiv">
         <a href={item.github} target="_blank" rel="noopener noreferrer">
-          <img className="ghlogo" src={github} />
+          <img className="ghlogo" src={github} alt="githubLogo" />
         </a>
         {item.url && (
           <a href={item.url} target="_blank" rel="noopener noreferrer">
