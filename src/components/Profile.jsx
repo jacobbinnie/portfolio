@@ -31,7 +31,7 @@ export default function Profile() {
             </a>
 
             <a
-              href="https://www.dropbox.com/s/qwxc62isi187wgq/Resume-Jacob%20Binnie-July5.pdf?dl=0"
+              href="https://www.dropbox.com/s/xsh1bsgqx4plwx4/Resume-Jacob%20Binnie-July6.pdf?dl=0"
               target="_blank"
               rel="noopener noreferrer"
             >
