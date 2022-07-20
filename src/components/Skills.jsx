@@ -14,9 +14,9 @@ export default function Skills() {
         </div>
       </div>
       <div className="skillList">
-        <h6 className="type">Understanding</h6>
+        <h6 className="type">Experience</h6>
         <div className="skillContainer">
-          {allSkills.understanding.map((item) => (
+          {allSkills.experience.map((item) => (
             <h6>{item}</h6>
           ))}
         </div>

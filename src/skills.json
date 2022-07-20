@@ -1,6 +1,21 @@
 {
-  "proficient": ["react.js", "next.js", "javascript", "html", "css"],
-  "understanding": ["typescript", "python", "solidity", "node.js"],
-  "management": ["agile sprints", "scrum master", "product"],
-  "bonus": ["coffee addict", "yeah, wine lover too"]
+  "proficient": [
+    "react.js",
+    "next.js",
+    "javascript",
+    "typescript",
+    "html",
+    "css",
+    "git"
+  ],
+  "experience": [
+    "python",
+    "solidity",
+    "node.js",
+    "firebase",
+    "mongoDB",
+    "react native"
+  ],
+  "management": ["agile methodology", "scrum master", "have led 10+ engineers"],
+  "bonus": ["super fast learner", "loves coffee & wine"]
 }
