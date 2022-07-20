@@ -24,12 +24,17 @@ h6 {
 .skillContainer {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
+  line-height: 0.3;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 600px) {
   .skillList {
     display: block;
     height: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
   .type {
     margin: 0px;
@@ -38,11 +43,10 @@ h6 {
   .skills {
     border: none;
     padding-top: 25px;
+    padding-bottom: 40px;
     background-color: whitesmoke;
     color: black;
     margin-top: 8px;
-    padding-top: 30px;
-    padding-bottom: 15px;
   }
   .skillContainer > h6 {
     margin: 0px;
