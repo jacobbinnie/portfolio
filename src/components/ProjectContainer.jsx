@@ -10,7 +10,14 @@ const ProjectContainer = () => {
       {projects.projects.map((item) => (
         <Project item={item} />
       ))}
-      <h6 style={{ color: "#f5f5f5" }}>hello@jacobbinnie.com</h6>
+      <a
+        style={{ textDecoration: "none" }}
+        href="mailto:hello@jacobbinnie.com"
+        target="_blank"
+      >
+        <h6 style={{ color: "#f5f5f5" }}>hello@jacobbinnie.com</h6>
+      </a>
+      <h6 style={{ color: "#f5f5f5" }}>built with react.js</h6>
     </div>
   );
 };
